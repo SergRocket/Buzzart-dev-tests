@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/schimbay/IdeaProjects/Simpletest">
+        <classes>
+            <class name="uaOlx.SymptomCheckerTest">
+                <methods>
+                    <include name="SymptCheck"/>
+                </methods>
+            </class>
+            <class name="uaOlx.AdminSmokeTest">
+                <methods>
+                    <include name="smoketest"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
