@@ -71,6 +71,7 @@ public class AdminSmokeTest {
         if(driver!=null){
             driver.close();
             driver.quit();
+            System.out.print("The test is ended");
         }
     }
 }
