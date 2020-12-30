@@ -52,14 +52,14 @@ public class AdminSmokeTest {
         MPA.diagnosesTab().click();
         Thread.sleep(1500);
         MPA.usersTab().click();
-        Thread.sleep(2500);
+        Thread.sleep(2700);
         if(MPA.paginationCounter().size() >= 7){
             System.out.print("The pagination quantity is valid");
         }else{
             System.out.print("The pagination quantity is small");
         }
         MPA.Search().sendKeys("joy");
-        Thread.sleep(3500);
+        Thread.sleep(5000);
         Assert.assertTrue(MPA.userName().getText().contains("joy"));
         MPA.ollylogoutButton().click();
         MPA.logoutButton().click();

@@ -32,7 +32,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/schimbay/IdeaProjects/Simpletest/testng.xml">
+  <component name="RunManager" selected="TestNG.AdminSmokeTest">
     <configuration name="First_Test.First_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Simpletest" />
       <extension name="coverage">
@@ -139,8 +139,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/schimbay/IdeaProjects/Simpletest/testng.xml" />
         <item itemvalue="TestNG.AdminSmokeTest" />
+        <item itemvalue="TestNG.C:/Users/schimbay/IdeaProjects/Simpletest/testng.xml" />
         <item itemvalue="TestNG.SymptomCheckerTest" />
         <item itemvalue="JUnit.First_Test.First_test" />
       </list>
@@ -158,6 +158,19 @@
       <updated>1570030499944</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -216,6 +229,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/uaOlx/SymptomCheckerTest.java</url>
           <line>86</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/uaOlx/AdminSmokeTest.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/uaOlx/AdminSmokeTest.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
